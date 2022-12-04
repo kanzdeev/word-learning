@@ -1,5 +1,0 @@
-- dodac localstorage (done)
-- reset (done)
-- design
-- debug
-- do clone in framework (?)

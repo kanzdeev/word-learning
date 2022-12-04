@@ -1,3 +1,4 @@
+//
 let answer;
 let question;
 var words = {
@@ -33,7 +34,7 @@ const shuffle = () => {
         words.polish[i] = words.polish[j];
         words.polish[j] = tempPL;
     }
-  }
+}
 
 const zapisz = () => {
     localStorage.setItem("words", JSON.stringify(words));
@@ -41,7 +42,7 @@ const zapisz = () => {
 }
 
 const reset = () => {
-    localStorage.clear()  
+    localStorage.clear()
 }
 
 const enToPl = () => {
@@ -75,9 +76,3 @@ const plToEn = () => {
         }
     }
 }
-
-
-
-
-
-  
